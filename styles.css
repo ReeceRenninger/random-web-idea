@@ -1,8 +1,59 @@
+header{
+  float: center;
+}
+
+
+#bigSign {
+  width: 2000px;
+  height: px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 400px;
+}
+
+#partnerLink {
+  align-self: center;
+}
+
 h1 {
   font-weight: bold;
   color: red;
 }
 
 body {
-  color: lightblue;
+  background-color: black;
+}
+
+#bestPizza {
+  height:299px;
+  width: 500px;
+}
+#badPizza{
+  width: 400px;
+  height: ;
+}
+#dancePizza{
+  width: 400px;
+}
+
+table {
+  color: #4AF0FF;
+}
+
+section{
+  display: inline-block;
+  color:#9D76E3;
+}
+
+details {
+  color: #F0E100;
+}
+
+p {
+  color: lightcoral;
+}
+
+footer{
+  color: green;
 }
