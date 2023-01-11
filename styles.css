@@ -1,10 +1,13 @@
 header{
-  float: center;
+  border: 3px solid white;
+  border-radius: 20px;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 
 #bigSign {
-  width: 2000px;
+  width: 500px;
   height: px;
   display: block;
   margin-left: auto;
@@ -31,7 +34,6 @@ body {
 }
 #badPizza{
   width: 400px;
-  height: ;
 }
 #dancePizza{
   width: 400px;
@@ -43,6 +45,7 @@ table {
 
 section{
   display: inline-block;
+  
   color:#9D76E3;
 }
 
