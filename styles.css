@@ -1,8 +1,9 @@
 header{
-  border: 3px solid white;
+  border: 2px solid black;
   border-radius: 20px;
   text-align: center;
   text-transform: uppercase;
+  text-decoration: underline coral;
 }
 
 
@@ -43,10 +44,11 @@ table {
   color: #4AF0FF;
 }
 
+
 section{
   display: inline-block;
   
-  color:#9D76E3;
+  color:green;
 }
 
 details {
