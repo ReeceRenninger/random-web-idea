@@ -1,5 +1,10 @@
+body {
+  background-image: url(redSign.jpg);
+}
+
 header{
   border: 2px solid black;
+  border-width: 20px;
   border-radius: 20px;
   text-align: center;
   text-transform: uppercase;
@@ -22,12 +27,9 @@ header{
 
 h1 {
   font-weight: bold;
-  color: red;
+  color:white ;
 }
 
-body {
-  background-color: white;
-}
 
 #bestPizza {
   height:299px;
@@ -37,38 +39,43 @@ body {
   width: 400px;
 }
 #dancePizza{
-  width: 400px;
+  width: 800px;
+  height: 300px;
 }
 
 table {
-  color: #4AF0FF;
+  color: black;
 }
 
 
 #section1{ 
-  color:green;
+  color:darkblue;
   display: inline-block;
+  background-color: pink;
 }
 
 #section2{
   color: purple;
   display: inline-block;
+  background-color: yellow;
 }
 
 #section3{
-  color: deepskyblue;
+  color: white;
   display: inline-block;
+  background-color: red;
 }
 details {
-  color: darkred;
+  color: black;
+  background-color: white;
 }
 
 p {
-  color: brown;
+  color: darkblue;
 }
 
 footer{
-  color: green;
+  color: white;
 }
 
 button{
