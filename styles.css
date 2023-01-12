@@ -60,13 +60,19 @@ table {
   display: inline-block;
 }
 details {
-  color: #F0E100;
+  color: darkred;
 }
 
 p {
-  color: lightcoral;
+  color: brown;
 }
 
 footer{
   color: green;
+}
+
+button{
+  border: 5x black;
+  border-radius: 20%;
+  
 }
