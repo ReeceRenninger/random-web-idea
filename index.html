@@ -1,117 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  
+
   <title>The World's Most Dynamic Food</title>
   <link rel="stylesheet" href="styles.css">
- 
+
 
 
 </head>
 
 <body>
 
-  <script>
+  <script src="app.js"></script>
 
-    let userName = prompt ("If you love Pizza, tell me your name traveler?","");
-      if(userName == false){
-        document.write ("Stranger Danger, refresh and try again!")
-      } else {
-    document.write ("Welcome to ZAAAAALAANNNDDD " + userName.toUpperCase() + "!");
-      }
-    alert("You put your name right?")
-    alert("If not... you're going to be a stranger.....")
-    
-</script>  
 
   <header>
-    <h1>The power of PIZZA!</h1> 
+    <script> let userName = userInput()</script>
 
-    <a id="partnerLink" href ="https://arturovaladez1.github.io/Lab04Html/">The Water King</a>
+    <h1>The power of PIZZA!</h1>
+
+    <a id="partnerLink" href="https://arturovaladez1.github.io/Lab04Html/">The Water King</a>
   </header>
-  
+
 
   <main>
-    <img id="bigSign"src = "https://images.unsplash.com/photo-1542587222-f9172e5eba29?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80" alt ="pizza sign"/>
-     <!--Main image above the sections-->
+    <img id="bigSign"
+      src="https://images.unsplash.com/photo-1542587222-f9172e5eba29?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+      alt="pizza sign" />
+    <!--Main image above the sections-->
 
-    <section  id="section1">
-      <script>
-        if(userName == false){
-          document.write("Strangers aren't allowed good toppings, shoo")
-        } else {
-        document.write(userName.toUpperCase() +", you love pepperoni right?")
-        }
-      </script>
+    <section id="section1">
+      <script>goodToppings()</script>
       <h3>Best Toppings</h3>
       <ul>
         <li>Pepporoni</li>
         <li>Sausage</li>
         <li>Bacon</li>
       </ul>
-      <img id="bestPizza"src ="https://images.unsplash.com/photo-1601924582970-9238bcb495d9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=688&q=80" alt ="pepporoni pizza" />
+      <img id="bestPizza"
+        src="https://images.unsplash.com/photo-1601924582970-9238bcb495d9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=688&q=80"
+        alt="pepporoni pizza" />
 
     </section>
 
 
     <section id="section2">
-      <script >
-        if(userName == false){
-          document.write("Strangers get all the worst toppings")
-        } else {
-        document.write(userName.toUpperCase() +", if you like pineapple, I might have to ask you to leave.")
-        }
-      </script>
+      <script>badToppings()</script>
       <h3>Weirdest Toppings</h3>
       <ul>
         <li>Canned Tuna</li>
         <li>Kangaroo</li>
         <li>Pineapple (obviously!)</li>
       </ul>
-      <img id="badPizza"src = "https://images.unsplash.com/photo-1562835155-a7c2a225e97d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80" alt ="gross pizza"/>
+      <img id="badPizza"
+        src="https://images.unsplash.com/photo-1562835155-a7c2a225e97d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80"
+        alt="gross pizza" />
     </section>
-  
+
 
     <section id="section3">
-      <script >
-        if(userName == false){
-          document.write("Strangers can't attend the dance party!")
-        } else {
-        document.write(userName.toUpperCase() +", it's time to dance those delicious calories away.")
-        }
-      </script>
+      <script>dancePizza()</script>
       <h3>Fun Facts</h3>
       <ul>
         <li>New York City has the first ever pizzeria in the US, Lombardi's!</li>
         <li>About 350 slices of pizza are consumed EVERY SECOND in the United States. </li>
-        <li>The most expensive pizza in the world costs about $12,000 dollars! Created by Master Chef Renato Viola of Italy.</li>
+        <li>The most expensive pizza in the world costs about $12,000 dollars! Created by Master Chef Renato Viola of
+          Italy.</li>
       </ul>
-      <img id="dancePizza" src ="https://i.pinimg.com/originals/97/55/69/97556994720d9a0e05ef27e9cb0fb66e.gif" alt = "animated pizza"/>
+      <img id="dancePizza" src="https://i.pinimg.com/originals/97/55/69/97556994720d9a0e05ef27e9cb0fb66e.gif"
+        alt="animated pizza" />
     </section>
-    
 
-      <p>Stretch Goals!</p>
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/HCAPjIVOdJw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-      <p>Lets try a table</p>
-      <table>
-            <tr>
-              <th>Good</th>
-              <th>Great</th>
-            </tr>
-          
-            <tr>
-              <td>Valentinos</td>
-              <td>Peps Pizza</td>
-            </tr>
-      </table>
+    <p>Stretch Goals!</p>
+    <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/HCAPjIVOdJw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
 
-      <p>Summary Element</p>
-      <details>
-        <summary>A farmer has twenty sheep, ten pigs, and ten cows. If we call the pigs cows, how many cows will he have? 
-        </summary>
-          Ten cows. We can call the pigs cows, but it doesn't make them cows!
-      </details>
+    <p>Lets try a table</p>
+    <table>
+      <tr>
+        <th>Good</th>
+        <th>Great</th>
+      </tr>
+
+      <tr>
+        <td>Valentinos</td>
+        <td>Peps Pizza</td>
+      </tr>
+    </table>
+
+    <p>Summary Element</p>
+    <details>
+      <summary>A farmer has twenty sheep, ten pigs, and ten cows. If we call the pigs cows, how many cows will he have?
+      </summary>
+      Ten cows. We can call the pigs cows, but it doesn't make them cows!
+    </details>
 
 
   </main>
@@ -126,6 +109,7 @@
   <footer>
     &copy; 102d47 Class
   </footer>
-  
+
 </body>
+
 </html>
