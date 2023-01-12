@@ -7,6 +7,9 @@
 // possibly try a while loop below to keep prompt appearing 
 // while (userInput == false){ recall the prompt}
 
+
+
+
 function userInput() {
   let userName = prompt("If you love Pizza, tell me your name traveler?");
 
@@ -24,7 +27,13 @@ function userInput() {
   // alert("If not... you're going to be a stranger.....")
   return userName;
 }
+// need for loop displaying an image the number issued by user
+let userAmount = prompt ("How many slices would you like?");
+userAmount = parseInt();
+userAmount = pizzaAmount;
 
+for (let i=0; i < pizzaAmount; i++){
+Image = }
 
 
 // above best toppings
