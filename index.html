@@ -15,7 +15,6 @@
 
     let userName = prompt ("If you love Pizza, tell me your name traveler?","");
       if(userName == false){
-        console.log(userName);
         document.write ("Stranger Danger, refresh and try again!")
       } else {
     document.write ("Welcome to ZAAAAALAANNNDDD " + userName.toUpperCase() + "!");
@@ -36,7 +35,7 @@
     <img id="bigSign"src = "https://images.unsplash.com/photo-1542587222-f9172e5eba29?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80" alt ="pizza sign"/>
      <!--Main image above the sections-->
 
-    <section>
+    <section  id="section1">
       <script>
         if(userName == false){
           document.write("Strangers aren't allowed good toppings, shoo")
@@ -55,7 +54,7 @@
     </section>
 
 
-    <section>
+    <section id="section2">
       <script >
         if(userName == false){
           document.write("Strangers get all the worst toppings")
@@ -73,12 +72,12 @@
     </section>
   
 
-    <section>
+    <section id="section3">
       <script >
         if(userName == false){
           document.write("Strangers can't attend the dance party!")
         } else {
-        document.write(userName.toUpperCase() +" time to dance those delicious calories away.")
+        document.write(userName.toUpperCase() +" it's time to dance those delicious calories away.")
         }
       </script>
       <h3>Fun Facts</h3>

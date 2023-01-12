@@ -45,12 +45,20 @@ table {
 }
 
 
-section{
-  display: inline-block;
-  
+#section1{ 
   color:green;
+  display: inline-block;
 }
 
+#section2{
+  color: purple;
+  display: inline-block;
+}
+
+#section3{
+  color: deepskyblue;
+  display: inline-block;
+}
 details {
   color: #F0E100;
 }
