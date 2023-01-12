@@ -3,12 +3,16 @@
 //had to set userName to a variable for it to be called OUTSIDE of original function. must use return statment to store userName in starting function 
 // user prompt on webpage open
 // Could call the function in itself to reprompt over and over until null or false is no longer present, but cant return information
+
+// possibly try a while loop below to keep prompt appearing 
+// while (userInput == false){ recall the prompt}
+
 function userInput() {
   let userName = prompt("If you love Pizza, tell me your name traveler?");
 
-  if (userName == false) {
+  while (userName == false) {
     userName = prompt("You wouldn't want to be known as stranger, right?");
-
+  
   } if (userName == false){
     document.write("Stranger Danger, refresh and try again!")
 
@@ -16,8 +20,8 @@ function userInput() {
     document.write("Welcome to ZAAAAALAANNNDDD " + userName.toUpperCase() + "!");
   }
 
-  alert("You put your name right?")
-  alert("If not... you're going to be a stranger.....")
+  // alert("You put your name right?")
+  // alert("If not... you're going to be a stranger.....")
   return userName;
 }
 
