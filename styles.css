@@ -1,5 +1,5 @@
 body {
-  background-image: url(redSign.jpg);
+  background-color: lightsalmon;
 }
 
 header{
@@ -27,7 +27,7 @@ header{
 
 h1 {
   font-weight: bold;
-  color:white;
+  color:black;
 }
 
 
@@ -61,21 +61,21 @@ table {
 }
 
 #section3{
-  color: white;
+  color: yellow;
   display: inline-block;
   background-color: red;
 }
 details {
   color: black;
-  background-color: white;
+  
 }
 
 p {
-  color: darkblue;
+  color: green;
 }
 
 footer{
-  color: white;
+  color: black;
 }
 
 button{
