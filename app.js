@@ -31,7 +31,7 @@ function userInput() {
 
 let userAmount = prompt ("How much do you love pepporoni pizza?");
 function repeatImage(){
-// userAmount = parseInt();
+userAmount = parseInt();
 for (let i=0; i < userAmount; i++){
 document.write('<img src="https://images.unsplash.com/photo-1601924582970-9238bcb495d9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=688&q=80">')}
 }
