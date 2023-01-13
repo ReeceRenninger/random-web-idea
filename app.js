@@ -8,8 +8,6 @@
 // while (userInput == false){ recall the prompt}
 
 
-
-
 function userInput() {
   let userName = prompt("If you love Pizza, tell me your name traveler?");
 
@@ -27,14 +25,16 @@ function userInput() {
   // alert("If not... you're going to be a stranger.....")
   return userName;
 }
+
 // need for loop displaying an image the number issued by user
-let userAmount = prompt ("How many slices would you like?");
-userAmount = parseInt();
-userAmount = pizzaAmount;
 
-for (let i=0; i < pizzaAmount; i++){
-Image = }
 
+let userAmount = prompt ("How much do you love pepporoni pizza?");
+function repeatImage(){
+// userAmount = parseInt();
+for (let i=0; i < userAmount; i++){
+document.write('<img src="https://images.unsplash.com/photo-1601924582970-9238bcb495d9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=688&q=80">')}
+}
 
 // above best toppings
 function goodToppings() {
