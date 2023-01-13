@@ -29,7 +29,7 @@ function userInput() {
 // need for loop displaying an image the number issued by user
 
 
-let userAmount = prompt ("How much do you love pepporoni pizza?");
+let userAmount = prompt ("How many slices do you want?");
 function repeatImage(){
 userAmount = parseInt();
 for (let i=0; i < userAmount; i++){
