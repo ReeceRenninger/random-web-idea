@@ -8,37 +8,37 @@
 // while (userInput == false){ recall the prompt}
 
 
-// function userInput() {
-//   let userName = prompt("If you love Pizza, tell me your name traveler?");
+function userInput() {
+  let userName = prompt("If you love Pizza, tell me your name traveler?");
 
-//   while (userName == false) {
-//     userName = prompt("You wouldn't want to be known as stranger, right?");
+  while (userName == false) {
+    userName = prompt("You wouldn't want to be known as stranger, right?");
   
-//   } if (userName == false){
-//     document.write("Stranger Danger, refresh and try again!")
+  } if (userName == false){
+    document.write("Stranger Danger, refresh and try again!")
 
-//   }else {
-//     document.write("Welcome to ZAAAAALAANNNDDD " + userName.toUpperCase() + "!");
-//   }
+  }else {
+    document.write("Welcome to ZAAAAALAANNNDDD " + userName.toUpperCase() + "!");
+  }
 
-//   // alert("You put your name right?")1
-//   // alert("If not... you're going to be a stranger.....")
-//   return userName;
-// }
+  // alert("You put your name right?")1
+  // alert("If not... you're going to be a stranger.....")
+  return userName;
+}
 
-// // need for loop displaying an image the number issued by user
+// need for loop displaying an image the number issued by user
 
 
-// let userAmount = prompt ("How many slices do you want? Pick 1 to 5, save some for the rest of us!");
-// function repeatImage(){
-//   // userAmount = parseFloat();              // adding logic to prevent breaks/ or trying to
-//   // while(typeof userAmount !== 'number'){
-//   //   userAmount = prompt ("Please enter a number between 1 and 5!")
-//   // }
+let userAmount = prompt ("How many slices do you want? Pick 1 to 5, save some for the rest of us!");
+function repeatImage(){
+  // userAmount = parseFloat();              // adding logic to prevent breaks/ or trying to
+  // while(typeof userAmount !== 'number'){
+  //   userAmount = prompt ("Please enter a number between 1 and 5!")
+  // }
 
-// for (let i=0; i < userAmount; i++){
-// document.write('<img src="pizzaSlice.jpg">')}
-// }
+for (let i=0; i < userAmount; i++){
+document.write('<img src="pizzaSlice.jpg">')}
+}
 
 // above best toppings
 function goodToppings() {
